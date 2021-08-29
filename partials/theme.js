@@ -5,7 +5,7 @@ const Theme = {
 
   const bodyTheme = document.querySelector('body')
   const saveTheme = localStorage.getItem('Theme')
-  const switchTheme = document.querySelector('.theme-switch__toggle')
+  const switchTheme = document.querySelector('#theme-switch-toggle')
 
   switchTheme.addEventListener('change', checkSwitch)
   bodyTheme.classList.add('light-theme')
