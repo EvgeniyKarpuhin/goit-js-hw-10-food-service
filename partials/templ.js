@@ -1,5 +1,5 @@
-import menu from '../option/options.hbs';
-import constructor from '../../menu.json';
+import menu from '../option/menu.hbs';
+import constructor from '../menu.json';
 
 
 const menuList = document.querySelector('.js-menu')
