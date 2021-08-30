@@ -1,2 +1,2 @@
-import '../partials/templ.js'
-import '../partials/theme.js'
+import './partials/templ'
+import './partials/theme'
