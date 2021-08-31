@@ -12,7 +12,7 @@ const Theme = {
 
   const themeInSave = function() {
       if(saveTheme === 'dark') {
-        
+        dakrTheme()
         switchTheme.setAttribute('cheked', true)
       }
   }
